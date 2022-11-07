@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         var etNombre = findViewById<EditText>(R.id.etNombre).text
         var etClave = findViewById<EditText>(R.id.etClave).text
         if (!etClave.toString().equals("abcdef*")) {
-            Toast.makeText(this, "Clave errónea!!!", Toast.LENGTH_LONG)
+            Toast.makeText(this, "Clave errónea!!!", Toast.LENGTH_LONG).show()
             return
         }
         var intent = Intent(this, BienvenidaActivity::class.java)
