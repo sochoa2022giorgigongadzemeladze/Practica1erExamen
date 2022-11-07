@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practica1erExamen</string>
+    <string name="tvNombre">INTRODUZCA SU NOMBRE</string>
+    <string name="tvContrasenya">INTRODUZCA SU CONTRASEÑA</string>
 </resources>
